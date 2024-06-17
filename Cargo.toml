@@ -1,0 +1,13 @@
+[package]
+name = "otp_generator_custom_length"
+version = "0.1.0"
+authors = ["Alejandro Castellanos <alejandrocastellanos0827@gmail.com>"]
+edition = "2021"
+license = "MIT"
+description = "Rust library for generating dynamic one-time passwords (OTPs)."
+
+[dependencies]
+rand = "0.8"
+
+[lib]
+crate-type = ["lib"]
